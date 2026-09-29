@@ -1,0 +1,307 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Milliy sertifikatga tayyorgarlik – Kimyo va Biologiya | Mirahmatov</title>
+<style>
+:root{--bg:#eef3fb;--fg:#0f1d2e;--card:#fff;--mut:#5a6b80;--ac:#0d9488;--ac2:#4f46e5;--edge:#c4d0e2;--ok:#d3f5df;--no:#fbd5d5;--bd:#d5deec;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0b1020;--fg:#e8eefc;--card:#161e36;--mut:#9aa8c7;--ac:#2dd4bf;--ac2:#818cf8;--edge:#0a0f1f;--ok:#14532d;--no:#7f1d1d;--bd:#2a3556}}
+:root[data-theme=dark]{--bg:#0b1020;--fg:#e8eefc;--card:#161e36;--mut:#9aa8c7;--ac:#2dd4bf;--ac2:#818cf8;--edge:#0a0f1f;--ok:#14532d;--no:#7f1d1d;--bd:#2a3556}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:radial-gradient(800px 420px at 90% -5%,rgba(79,70,229,.25),transparent),radial-gradient(700px 420px at -5% 8%,rgba(13,148,136,.25),transparent),var(--bg);background-attachment:fixed}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;display:flex;justify-content:space-between;align-items:center;gap:8px;padding:12px 18px;background:var(--card);border-bottom:3px solid var(--edge);font-weight:700}
+header small{color:var(--mut);font-weight:500}header b{color:var(--ac)}
+main{max-width:800px;margin:auto;padding:18px 16px 30px}h2{margin:6px 0 12px}h3{margin:18px 0 8px}
+.sub{border-bottom:3px solid var(--edge);padding-bottom:6px}
+button,.lnk{font:inherit;color:var(--fg);background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:12px 16px;margin:6px 6px 6px 0;cursor:pointer;box-shadow:0 5px 0 var(--edge),0 10px 18px rgba(20,30,60,.12);transition:.12s;text-decoration:none;display:inline-block}
+button:hover:not(:disabled),.lnk:hover{transform:translateY(-2px);box-shadow:0 7px 0 var(--edge),0 14px 22px rgba(20,30,60,.16)}
+button:active:not(:disabled),.lnk:active{transform:translateY(4px);box-shadow:0 1px 0 var(--edge)}
+.pri,.lnk.pri{background:linear-gradient(135deg,var(--ac),var(--ac2));color:#fff;border:0;font-weight:600;box-shadow:0 5px 0 #312e81,0 12px 20px rgba(79,70,229,.35)}
+.hero{position:relative;perspective:800px;background:linear-gradient(135deg,#0d9488,#4f46e5);color:#fff;border-radius:24px;padding:26px 22px;margin-bottom:22px;box-shadow:0 8px 0 #312e81,0 22px 40px rgba(79,70,229,.35);overflow:hidden}
+.hero h1{margin:0 0 6px;font-size:1.55em;line-height:1.2;max-width:75%}.hero p{margin:0 0 16px;max-width:75%;opacity:.93}
+.atom{position:absolute;right:26px;top:26px;width:96px;height:96px;transform-style:preserve-3d;animation:spin 10s linear infinite}
+.atom i{position:absolute;inset:0;border:3px solid rgba(255,255,255,.8);border-radius:50%}
+.atom i:nth-child(1){transform:rotateY(72deg)}.atom i:nth-child(2){transform:rotateY(72deg) rotateZ(60deg)}.atom i:nth-child(3){transform:rotateY(72deg) rotateZ(-60deg)}
+.atom b{position:absolute;left:50%;top:50%;width:22px;height:22px;margin:-11px;border-radius:50%;background:radial-gradient(circle at 30% 30%,#fff,#fde047 55%,#f59e0b);box-shadow:0 0 22px #fde047}
+@keyframes spin{to{transform:rotateY(360deg) rotateX(25deg)}}
+.st{display:flex;gap:10px;flex-wrap:wrap}.st div{background:rgba(255,255,255,.2);border-radius:12px;padding:8px 14px;font-size:.85em}.st b{display:block;font-size:1.5em}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;margin-bottom:12px;perspective:900px}
+.card{display:flex;flex-direction:column;align-items:flex-start;text-align:left;margin:0;padding:16px;border-radius:18px;transform-style:preserve-3d;transition:transform .15s}
+.card span{font-size:1.7em;margin-bottom:6px;transform:translateZ(24px)}.card b{transform:translateZ(14px)}.card small{color:var(--mut)}
+.card.k{border-top:5px solid var(--ac)}.card.b{border-top:5px solid var(--ac2)}
+.o{display:flex;gap:12px;align-items:center;width:100%;text-align:left;margin:10px 0;padding:13px 16px;border-radius:14px}
+.o em{font-style:normal;font-weight:700;width:30px;height:30px;border-radius:9px;background:var(--bg);display:grid;place-items:center;flex:none;color:var(--ac)}
+.o.ok{background:var(--ok);border-color:#16a34a}.o.no{background:var(--no);border-color:#dc2626}
+.ex{background:var(--card);border-left:5px solid var(--ac);padding:12px 14px;margin:12px 0;border-radius:10px;box-shadow:0 4px 0 var(--edge)}
+.bar{display:flex;justify-content:space-between;color:var(--mut);margin-bottom:6px}.bar b{color:var(--ac)}
+.prog{height:10px;background:var(--bd);border-radius:8px;overflow:hidden;margin-bottom:10px}.prog i{display:block;height:100%;background:linear-gradient(90deg,var(--ac),var(--ac2))}
+.res{display:flex;align-items:center;gap:18px}.lv{font-size:1.25em}
+.ring{--p:0;width:104px;height:104px;border-radius:50%;background:conic-gradient(var(--ac) calc(var(--p)*1%),var(--bd) 0);display:grid;place-items:center;box-shadow:0 6px 0 var(--edge)}
+.ring span{width:80px;height:80px;border-radius:50%;background:var(--bg);display:grid;place-items:center;font-weight:800;font-size:1.3em}
+.info{background:var(--card);border-radius:20px;padding:6px 18px 14px;margin-top:20px;box-shadow:0 6px 0 var(--edge),0 16px 30px rgba(20,30,60,.12)}
+.dt{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:8px 0}
+.dt div{background:var(--bg);border-radius:14px;padding:10px 12px;box-shadow:0 4px 0 var(--edge)}.dt b{display:block;font-size:1.4em;color:var(--ac2)}.dt small{color:var(--mut)}
+.info li{margin:6px 0}footer{text-align:center;padding:18px;color:var(--mut);font-size:.9em}
+main>*{animation:up .35s ease both}@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@media(max-width:520px){.atom{width:64px;height:64px;right:14px;top:16px}.hero h1,.hero p{max-width:70%}}
+</style></head><body>
+<header><span>🧪 Milliy sertifikatga tayyorgarlik<br><small>Kimyo va Biologiya</small></span><small>Muallif: <b>Mirahmatov</b></small></header>
+<main id="a"></main><footer>© Sayt muallifi: <b>Mirahmatov</b></footer>
+<script>
+const T={k1:["Atom tuzilishi","Atom yadro (proton, neytron) va elektronlardan iborat. Elektron formula valent elektronlar sonini beradi."],k2:["Kimyoviy bog'lanish","Ionli, kovalent (qutbli/qutbsiz) va metall bog'lanish; molekula geometriyasi gibridlanishga bog'liq."],k3:["Eritmalar","Foiz va molyar konsentratsiya, pH, elektrolitlar, eruvchanlik."],k4:["Metallar","Aktivlik qatori, amfoterlik, metall birikmalari va xossalari."],k5:["Organik kimyo","Alkan, alken, spirt, kislotalar: umumiy formulalar va funksional guruhlar."],b1:["Hujayra","Organoidlar, mitoz, DNK va RNK tuzilishi."],b2:["Genetika","Mendel qonunlari, genotip/fenotip, xromosomalar, komplementarlik."],b3:["Odam anatomiyasi","Qon, yurak, hazm, endokrin va nafas tizimlari."],b4:["O'simliklar","Fotosintez, tashish to'qimalari, o'simliklar sistematikasi."],b5:["Ekologiya va evolyutsiya","Ekotizim, oziq zanjiri, Darvin ta'limoti, populyatsiya."],k6:["Reaksiya tezligi va muvozanat","Van't-Goff qoidasi, katalizator, Le Shatele prinsipi."],k7:["Metallmaslar","Galogenlar, azot va oltingugurt birikmalari, oksidlanish darajalari."],k8:["Anorganik birikmalar sinflari","Oksidlar, kislotalar, asoslar va tuzlar; reaksiya turlari."],b6:["Hayvonlar sistematikasi","Umurtqasizlar va xordalilar, sinflarning xos belgilari."],b7:["Vitaminlar va energiya","Vitaminlar yetishmasligi kasalliklari, fermentlar, ATF."],b8:["Molekulyar biologiya","Transkripsiya, genetik kod, oqsil monomerlari, replikatsiya."],b9:["O'simliklar organlari","Ildiz, poya, barg, gul, urug' va vegetativ ko'payish."],k9:["Moddalar va kimyoviy hodisalar","Fizik va kimyoviy hodisalar, sof modda va aralashma, belgilar, valentlik."],k10:["Mol va kimyoviy hisoblashlar","Mol, molyar massa, Avogadro soni, gaz hajmi va tenglama bo'yicha hisoblash."],b11:["Asab tizimi va sezgi organlari","Neyron, refleks, bosh va orqa miya, ko'rish va eshitish."],k11:["Elektroliz va galvanik elementlar","Katod, anod, elektroliz, korroziya, Faradey qonuni."],b12:["Ko'payish va individual rivojlanish","Meyoz, gametalar, zigota, embrional rivojlanish."]};
+const G={k9:7,b6:7,k1:8,k2:8,k8:8,k10:8,b3:8,k3:9,k4:9,k7:9,b7:9,b11:9,k5:10,b1:10,b8:10,b12:10,k6:11,k11:11,b2:11,b5:11,b4:6,b9:6};;
+/* Format: mavzu|savol|TO'G'RI javob|xato|xato|xato|izoh  (yangi savol qo'shish uchun shu qatorga o'xshash qator qo'shing) */
+const B=`k1|Xlor atomida (Z=17) nechta valent elektron bor?|7|5|3|8|3s²3p⁵ konfiguratsiyada 2+5=7 ta.
+k1|1s²2s²2p⁶3s² formulali element qaysi?|Mg|Na|Al|Ne|Jami 12 elektron, ya'ni Z=12 – magniy.
+k1|Davrda chapdan o'ngga metallmaslik xossalari qanday o'zgaradi?|Kuchayadi|Kamayadi|O'zgarmaydi|Avval kamayib, keyin ortadi|Yadro zaryadi ortib, atom radiusi kamayadi.
+k1|Uglerod-12 izotopida nechta neytron bor?|6|12|8|4|Neytron = massa soni − proton = 12−6 = 6.
+k1|d-elementlar davriy jadvalning qayerida joylashgan?|Qo'shimcha (B) guruhchalarda|Faqat I guruhda|VIII guruhdan keyin|Asosiy guruhchalarda|Ularda oxirgi elektron d-pog'onachaga joylashadi.
+k2|NaCl da qanday kimyoviy bog'lanish bor?|Ionli|Kovalent qutbli|Kovalent qutbsiz|Metall|Metall (Na) va metallmas (Cl) o'rtasida elektron to'liq o'tadi.
+k2|N₂ molekulasida atomlar orasida nechta umumiy elektron juft bor?|3|1|2|4|Azot atomida 3 ta juftlashmagan elektron bor: N≡N.
+k2|Suvda vodorod bog'lanish hosil bo'lishiga asosiy sabab nima?|Kislorodning yuqori elektrmanfiyligi|Vodorodning katta massasi|Ionli bog'lanish mavjudligi|Molekulaning chiziqli shakli|O–H bog'i qutbli, H qisman musbat zaryadlanadi.
+k2|CH₄ molekulasi qanday geometriyaga ega?|Tetraedr|Chiziqli|Tekis uchburchak|Piramida|Uglerod sp³ gibridlanishda, burchak ≈109,5°.
+k2|Qaysi modda molekulasida qutbsiz kovalent bog'lanish bor?|Cl₂|HCl|H₂O|NH₃|Bir xil atomlar orasida elektrmanfiylik farqi nol.
+k3|200 g 10% li eritmada necha gramm erigan modda bor?|20 g|10 g|2 g|200 g|m = 200·0,10 = 20 g.
+k3|pH = 3 bo'lgan eritma muhiti qanday?|Kislotali|Ishqoriy|Neytral|Aniqlab bo'lmaydi|pH < 7 kislotali muhitni bildiradi.
+k3|0,5 mol NaOH 2 L eritmada bo'lsa, molyar konsentratsiya qancha?|0,25 M|0,5 M|1 M|2 M|C = n/V = 0,5/2 = 0,25 mol/L.
+k3|Quyidagilardan qaysi biri kuchli elektrolit?|HCl|CH₃COOH|H₂CO₃|NH₃·H₂O|HCl suvda to'liq dissotsilanadi.
+k3|Harorat oshganda gazlarning suvda eruvchanligi qanday o'zgaradi?|Kamayadi|Ortadi|O'zgarmaydi|Avval ortadi|Gazlarning erishi ekzotermik, isitilganda kamayadi.
+k4|Quyidagilardan qaysi metall eng faol?|K|Cu|Fe|Ag|Kaliy aktivlik qatorida eng chapda turadi.
+k4|Qaysi metall amfoter xossaga ega?|Al|Na|K|Ca|Al kislota ham, ishqor bilan ham reaksiyaga kirishadi.
+k4|Temir(III) oksidning formulasi qaysi?|Fe₂O₃|FeO|Fe₃O₄|FeS|Fe³⁺ va O²⁻ dan Fe₂O₃ hosil bo'ladi.
+k4|Ca suv bilan reaksiyaga kirishganda nima hosil bo'ladi?|Ca(OH)₂ va H₂|CaO va H₂|CaO va O₂|CaH₂ va O₂|Ca + 2H₂O → Ca(OH)₂ + H₂↑.
+k4|Metallarning elektr o'tkazuvchanligi nimaga bog'liq?|Erkin elektronlarga|Erkin ionlarga|Neytronlarga|Molekulalarga|Metallda elektronlar panjara bo'ylab erkin harakatlanadi.
+k5|Etilenning molekulyar formulasi qaysi?|C₂H₄|C₂H₆|C₂H₂|CH₄|Etilen – birinchi alken, C₂H₄.
+k5|Alkanlarning umumiy formulasi qaysi?|CₙH₂ₙ₊₂|CₙH₂ₙ|CₙH₂ₙ₋₂|CₙHₙ|To'yingan uglevodorodlar formulasi CₙH₂ₙ₊₂.
+k5|Etanolning funksional guruhi qaysi?|–OH|–COOH|–CHO|–NH₂|Spirtlarga gidroksil guruh xos.
+k5|Sirka kislotaning formulasi qaysi?|CH₃COOH|CH₃OH|HCOOH|C₂H₅OH|Karboksil guruh (–COOH) va metil radikal.
+k5|Alkenlar bromli suvga qanday ta'sir qiladi?|Rangsizlantiradi|Rangini o'zgartirmaydi|Qoraytiradi|Cho'ktirib qo'yadi|Qo'shbog' bo'yicha brom birikadi.
+b1|Hujayraning "energiya stansiyasi" qaysi organoid?|Mitoxondriya|Ribosoma|Lizosoma|Golji apparati|Mitoxondriyada ATF sintezlanadi.
+b1|Oqsil sintezi qayerda amalga oshadi?|Ribosomada|Yadroda|Vakuolada|Lizosomada|Ribosoma tarjima (translyatsiya) jarayonini bajaradi.
+b1|Fotosintez qaysi organoidda kechadi?|Xloroplastda|Mitoxondriyada|Ribosomada|Lizosomada|Xloroplastda xlorofill yorug'likni yutadi.
+b1|Mitozda nechta qiz hujayra hosil bo'ladi va ularning xromosoma to'plami qanday?|2 ta diploid|4 ta gaploid|2 ta gaploid|4 ta diploid|Mitoz ona hujayra bilan bir xil 2n hujayralar beradi.
+b1|Quyidagi azot asoslaridan qaysi biri DNKda uchramaydi?|Uratsil|Adenin|Guanin|Sitozin|Uratsil RNKga xos (DNKda timin bor).
+b2|Aa × Aa chatishtirishda genotip bo'yicha AA:Aa:aa nisbati qanday?|1:2:1|3:1|1:1|9:3:3:1|Gametalar A va a; avlodda 1AA:2Aa:1aa.
+b2|Mendelning birinchi qonuni nimani bildiradi?|F₁ duragaylar bir xil bo'ladi|Belgilar bog'langan holda irsiylanadi|Belgilar o'zaro aralashadi|Har avlodda 1:1 nisbat|Bu bir xillik qonuni.
+b2|Odam erkagining jinsiy xromosomalari qanday?|XY|XX|XO|YY|Erkakda XY, ayolda XX.
+b2|Odam somatik hujayrasida nechta xromosoma bor?|46|23|44|48|Diploid to'plam 2n = 46.
+b2|Komplementarlik qoidasiga ko'ra DNKda qaysi juftliklar hosil bo'ladi?|A–T va G–C|A–G va T–C|A–C va T–G|A–U va G–C|DNKda adenin timin bilan, guanin sitozin bilan bog'lanadi.
+b3|Qonda kislorodni qaysi hujayralar tashiydi?|Eritrotsitlar|Leykositlar|Trombotsitlar|Limfotsitlar|Eritrotsitlardagi gemoglobin O₂ ni biriktiradi.
+b3|Odam yuragi nechta kameradan iborat?|4|2|3|5|Ikki bo'lmacha va ikki qorincha.
+b3|Oqsillarning parchalanishi qayerda boshlanadi?|Oshqozonda|Og'iz bo'shlig'ida|O'n ikki barmoq ichakda|Yo'g'on ichakda|Oshqozon shirasidagi pepsin oqsillarni parchalaydi.
+b3|Insulinni qaysi bez ishlab chiqaradi?|Me'da osti bezi|Jigar|Qalqonsimon bez|Buyrak usti bezi|Insulin qandni kamaytiradi, uni me'da osti bezi ishlab chiqaradi.
+b3|Gazlar almashinuvi o'pkaning qaysi qismida kechadi?|Alveolalarda|Bronxlarda|Traxeyada|Hiqildoqda|Alveola devori yupqa, kapillyarlar bilan o'ralgan.
+b4|Fotosintezda qaysi gaz ajralib chiqadi?|Kislorod|Karbonat angidrid|Azot|Vodorod|Suv fotolizidan O₂ hosil bo'ladi.
+b4|Suv va mineral tuzlarni ildizdan bargga qaysi to'qima tashiydi?|Ksilema|Floema|Kambiy|Epidermis|Ksilema (yog'och) yuqoriga oqim beradi.
+b4|Quyidagilardan qaysi biri bir pallali o'simlik?|Makkajo'xori|Loviya|Nok|Olma|Bir pallalilar urug'ida bitta urug' pallasi bo'ladi.
+b4|Bargda gazlar almashinuvi qaysi tuzilma orqali kechadi?|Og'izchalar|Ildiz tuklari|Kambiy|Tola|Og'izchalar orqali CO₂ kiradi va O₂ chiqadi.
+b4|Qo'sh urug'lanish qaysi o'simliklarga xos?|Yopiq urug'lilarga|Ochiq urug'lilarga|Paporotniklarga|Moxlarga|Bir spermiy tuxum hujayrani, ikkinchisi markaziy hujayrani urug'lantiradi.
+b5|Ekotizimda produtsentlar kimlar?|Yashil o'simliklar|O'txo'rlar|Yirtqichlar|Parazitlar|Ular noorganik moddalardan organik modda hosil qiladi.
+b5|Tabiiy tanlanish nazariyasining muallifi kim?|Ch. Darvin|J. Lamark|G. Mendel|L. Paster|Darvin "Turlarning kelib chiqishi" asarini yozgan.
+b5|Oziq zanjirida energiyaning taxminan qancha qismi keyingi bo'g'inga o'tadi?|10%|50%|90%|100%|"O'n foiz qoidasi": qolgani issiqlik sifatida sarflanadi.
+b5|Issiqxona effektini kuchaytiruvchi asosiy gaz qaysi?|CO₂|O₂|N₂|Ar|CO₂ Yerdan qaytgan issiqlikni ushlab qoladi.
+b5|Bir hududda yashovchi bir tur organizmlar to'plami nima deyiladi?|Populyatsiya|Biotsenoz|Biosfera|Ekotizim|Populyatsiya – bir turning hududdagi guruhi.
+k6|Harorat oshirilsa, muvozanat qaysi reaksiya tomon siljiydi?|Endotermik reaksiya tomon|Ekzotermik reaksiya tomon|Siljimaydi|Gazlar hajmi kam tomon|Le Shatele: issiqlik yutiladigan jarayon kuchayadi.
+k6|Katalizator muvozanatga qanday ta'sir qiladi?|Tezlikni oshiradi, muvozanatni siljitmaydi|Muvozanatni o'ngga siljitadi|Unumni oshiradi|Reaksiyada butunlay sarflanadi|U to'g'ri va teskari reaksiyani bir xil tezlashtiradi.
+k6|N₂ + 3H₂ ⇌ 2NH₃ da bosim oshirilsa muvozanat qayerga siljiydi?|NH₃ hosil bo'lishi tomon|Chapga|Siljimaydi|Faqat haroratga bog'liq|Chapda 4 mol, o'ngda 2 mol gaz: bosim hajmi kam tomonga siljitadi.
+k6|Harorat 10°C ga oshganda tezlik 2 marta ortsa (γ=2), 30°C ga oshganda necha marta ortadi?|8 marta|4 marta|6 marta|16 marta|2³ = 8.
+k7|Galogenlar orasida eng kuchli oksidlovchi qaysi?|F₂|Cl₂|Br₂|I₂|Ftor eng elektrmanfiy element.
+k7|Oltingugurt(IV) oksidning formulasi qaysi?|SO₂|SO₃|H₂S|H₂SO₄|Oltingugurt +4 oksidlanish darajasida SO₂.
+k7|Konsentrlangan sulfat kislotaning qaysi xossasi organik moddalarni ko'mirlashtiradi?|Suvni kuchli tortib olish|Suvda erimaslik|Kuchsiz kislota bo'lish|Gaz holatda bo'lish|Suvni tortib olib, moddadan uglerod qoldiradi.
+k7|Azotning eng yuqori oksidlanish darajasi qaysi?|+5|+3|+4|+7|Azot 5 ta valent elektronga ega, HNO₃ da +5.
+k8|Qaysi oksid asosli oksid hisoblanadi?|CaO|CO₂|SO₃|P₂O₅|Metall oksidlari asosli, metallmas oksidlari kislotali.
+k8|NaOH + HCl → NaCl + H₂O reaksiyasi qanday nomlanadi?|Neytrallanish|Parchalanish|Oksidlanish-qaytarilish|Birikish|Kislota va asos o'zaro tuz va suv hosil qiladi.
+k8|Quyidagilardan qaysi biri tuz?|Na₂CO₃|H₂CO₃|NaOH|Na₂O|Tuz metall kationi va kislota qoldig'idan iborat.
+k8|Qaysi kislota ikki negizli?|H₂SO₄|HCl|HNO₃|H₃PO₄|Molekulada 2 ta almashinadigan H atomi bor.
+b6|Quyidagi sinflardan qaysi biri issiqqonli?|Qushlar|Baliqlar|Sudralib yuruvchilar|Amfibiyalar|Qushlar va sut emizuvchilar tana haroratini doimiy saqlaydi.
+b6|Hasharotlarning nechta oyog'i bor?|6 ta|8 ta|10 ta|4 ta|Hasharotlarda 3 juft oyoq bor.
+b6|Xordalilarga xos asosiy belgi qaysi?|Xorda|Xitin qobiq|Mantiya|Tashqi skelet|Xorda tayanch o'q skelet vazifasini bajaradi.
+b6|Quyidagilardan qaysi biri yumaloq chuvalchang?|Askarida|Planariya|Yomg'ir chuvalchangi|Jigar qurti|Askarida Nematoda turiga kiradi.
+b7|Rahit qaysi vitamin yetishmasligidan kelib chiqadi?|D|C|A|K|D vitamini kalsiy almashinuvini boshqaradi.
+b7|Singa (skorbut) qaysi vitamin yetishmasligidan paydo bo'ladi?|C|D|B₁|A|C vitamini (askorbin kislota) yetishmaydi.
+b7|Fermentlar kimyoviy tabiatiga ko'ra asosan qanday moddalar?|Oqsillar|Lipidlar|Uglevodlar|Nuklein kislotalar|Fermentlarning ko'pchiligi oqsil.
+b7|Hujayrada energiyaning universal tashuvchisi qaysi modda?|ATF|DNK|RNK|Glyukoza|ATF makroergik bog'larda energiya saqlaydi.
+b8|Transkripsiya natijasida nima sintezlanadi?|iRNK|Oqsil|DNK|ATF|Transkripsiyada DNK matritsasida RNK hosil bo'ladi.
+b8|Bitta aminokislotani nechta nukleotid (triplet) kodlaydi?|3 ta|2 ta|4 ta|1 ta|Genetik kod tripletli.
+b8|Oqsil monomerlari qaysilar?|Aminokislotalar|Nukleotidlar|Glyukoza|Yog' kislotalari|Aminokislotalar peptid bog'i bilan bog'lanadi.
+b8|DNK replikatsiyasi hujayra siklining qaysi davrida kechadi?|Interfazaning S davrida|Profazada|Metafazada|Anafazada|S davrida DNK ikki hissa ko'payadi.
+k1|Protonlar soni 11 bo'lgan element qaysi?|Na|K|Mg|Li|Z=11 natriy.
+k1|Kislorod atomining tashqi qavatida nechta elektron bor?|6|8|4|2|2s²2p⁴.
+k1|Proton soni bir xil, neytron soni har xil atomlar nima deyiladi?|Izotoplar|Izobarlar|Izotonlar|Allotroplar|Izotoplar bir elementning navlari.
+k1|s-pog'onachada eng ko'pi bilan nechta elektron bo'ladi?|2|6|10|14|Bitta orbital, ikkita elektron.
+k1|Argon (Z=18) atomida nechta elektron qavat bor?|3|2|4|8|Taqsimot: 2, 8, 8.
+k1|Ca²⁺ ionida nechta elektron bor?|18|20|22|2|20 elektrondan 2 tasi ketgan.
+k2|HCl molekulasida qanday bog'lanish bor?|Kovalent qutbli|Ionli|Kovalent qutbsiz|Metall|Umumiy juft Cl tomon siljigan.
+k2|Ionli kristall panjarali moddalarga qaysi xossa xos?|Yuqori suyuqlanish harorati|Oson uchuvchanlik|Yumshoqlik|Past qaynash harorati|Ionlar orasida tortishish kuchli.
+k2|Donor-akseptor mexanizmida hosil bo'lgan ion qaysi?|NH₄⁺|Na⁺|Cl⁻|Ca²⁺|Azotning erkin jufti H⁺ ga beriladi.
+k2|CO₂ molekulasining shakli qanday?|Chiziqli|Burchakli|Tetraedr|Piramida|Uglerod sp-gibridlanishda.
+k2|Etilen (C₂H₄) molekulasida nechta σ va π bog' bor?|5 σ va 1 π|4 σ va 2 π|6 σ va 0 π|3 σ va 3 π|4 ta C–H, 1 ta C–C σ va bitta π bog'.
+k2|H₂O molekulasi qanday shaklda?|Burchakli|Chiziqli|Tetraedr|Tekis uchburchak|Kislorodda 2 ta erkin juft bor.
+k3|Molyar konsentratsiya qaysi birlikda o'lchanadi?|mol/L|g/mol|mol/g|g/L|C = n/V.
+k3|100 g suvda 25 g tuz eritilsa, eritma foizi qancha?|20%|25%|15%|30%|25/125·100 = 20%.
+k3|pOH = 4 bo'lsa, pH qancha?|10|4|7|14|pH + pOH = 14.
+k3|Fenolftalein ishqoriy muhitda qanday rang beradi?|Malina-qizil|Rangsiz|Sariq|Ko'k|Kislotada rangsiz, ishqorda qizil.
+k3|Qaysi modda kuchsiz elektrolit?|CH₃COOH|NaOH|HNO₃|KCl|Sirka kislota qisman dissotsilanadi.
+k3|Eritma suyultirilganda erigan modda massasi qanday o'zgaradi?|O'zgarmaydi|Ortadi|Kamayadi|Ikki hissa ortadi|Faqat erituvchi qo'shiladi.
+k4|Vodoroddan keyin turuvchi metall qaysi?|Cu|Zn|Fe|Mg|Cu kislotalardan H₂ siqib chiqarmaydi.
+k4|Natriy nima ostida saqlanadi?|Kerosin|Suv|Spirt|Havo|U suv va kislorod bilan faol reaksiyaga kirishadi.
+k4|Fe + CuSO₄ reaksiyasida nima hosil bo'ladi?|FeSO₄ va Cu|Fe₂(SO₄)₃ va Cu|FeSO₄ va H₂|Reaksiya bormaydi|Fe faolroq, Cu ni siqib chiqaradi.
+k4|Bronza qaysi metallarning qotishmasi?|Cu va Sn|Cu va Zn|Fe va C|Al va Mg|Cu+Zn latun deyiladi.
+k4|Po'latda uglerod miqdori qancha?|2% dan kam|2–4,5%|10%|0%|Cho'yanda 2–4,5% uglerod bor.
+k4|Al ishqor eritmasi bilan reaksiyada qaysi gaz ajraladi?|H₂|O₂|Cl₂|N₂|Al amfoter, vodorod ajraladi.
+k5|Asetilenning formulasi qaysi?|C₂H₂|C₂H₄|C₂H₆|C₆H₆|Asetilen – etin, uchbog'li.
+k5|Benzolning formulasi qaysi?|C₆H₆|C₆H₁₂|C₆H₁₄|C₆H₅OH|Aromatik uglevodorod.
+k5|Izomerlar qanday moddalar?|Formulasi bir xil, tuzilishi farqli|Tuzilishi bir xil, formulasi farqli|Massasi farqli|Bir xil xossali|Izomeriya tuzilish farqidan.
+k5|Glyukozaning molekulyar formulasi qaysi?|C₆H₁₂O₆|C₁₂H₂₂O₁₁|C₆H₁₀O₅|C₂H₅OH|Monosaxarid.
+k5|Qaysi birikma aldegid?|CH₃CHO|CH₃COOH|CH₃OH|CH₃COCH₃|Aldegidda –CHO guruhi bor.
+k5|Propanning formulasi qaysi?|C₃H₈|C₃H₆|C₃H₄|C₂H₆|Alkan: CₙH₂ₙ₊₂, n=3.
+k6|Reaksiya tezligi qaysi birlikda o'lchanadi?|mol/(L·s)|mol/L|s|g/mol|Vaqt birligida konsentratsiya o'zgarishi.
+k6|Konsentratsiya oshirilsa reaksiya tezligi qanday o'zgaradi?|Ortadi|Kamayadi|O'zgarmaydi|Nolga teng bo'ladi|Zarrachalar to'qnashuvi ko'payadi.
+k6|Kimyoviy muvozanat holatida nima ro'y beradi?|To'g'ri va teskari reaksiya tezliklari teng|Reaksiya to'xtaydi|Reagentlar tugaydi|Faqat to'g'ri reaksiya boradi|Muvozanat dinamik.
+k6|Qattiq modda maydalansa reaksiya tezligi qanday o'zgaradi?|Ortadi|Kamayadi|O'zgarmaydi|Nolga teng bo'ladi|Kontakt yuzasi ortadi.
+k6|Ingibitor nima qiladi?|Reaksiyani sekinlashtiradi|Reaksiyani tezlashtiradi|Muvozanatni siljitadi|Unumni oshiradi|Ingibitor tezlikni kamaytiradi.
+k6|2SO₂ + O₂ ⇌ 2SO₃ + Q da harorat pasaytirilsa nima bo'ladi?|SO₃ unumi ortadi|SO₃ unumi kamayadi|O'zgarmaydi|Reaksiya to'xtaydi|Ekzotermik jarayon sovitishda o'ngga siljiydi.
+k6|Endotermik reaksiyada issiqlik qanday o'zgaradi?|Yutiladi|Ajraladi|O'zgarmaydi|Yo'qoladi|Endo – ichkariga, issiqlik yutiladi.
+k7|Ammiakning suvdagi eritmasi qanday muhitga ega?|Ishqoriy|Kislotali|Neytral|Amfoter|NH₃ + H₂O ⇌ NH₄⁺ + OH⁻.
+k7|Ozonning formulasi qaysi?|O₃|O₂|O₄|H₂O₂|Ozon – kislorodning allotropi.
+k7|Xlor suvda erisa nima hosil bo'ladi?|HCl va HClO|HCl va HClO₃|Faqat HCl|NaCl|Cl₂ + H₂O ⇌ HCl + HClO.
+k7|Qaysi modda fosforning allotropik shakli?|Oq fosfor|Ozon|Grafit|Olmos|Fosforning oq va qizil shakli bor.
+k7|Olmos va grafit o'zaro qanday moddalar?|Allotroplar|Izotoplar|Izomerlar|Gomologlar|Ikkisi ham uglerod.
+k7|Nitrat kislota yorug'likda nima bo'ladi?|Parchalanib NO₂ hosil qiladi|O'zgarmaydi|Cho'kma beradi|Qotib qoladi|Shuning uchun qorong'i idishda saqlanadi.
+k7|Xona haroratida qaysi galogen suyuq holatda?|Br₂|Cl₂|I₂|F₂|Brom – suyuq, qizil-qo'ng'ir.
+k8|Qaysi oksid amfoter?|ZnO|Na₂O|CO₂|SO₃|ZnO kislota va asos bilan reaksiyaga kirishadi.
+k8|Qaysi modda kuchli asos?|KOH|Cu(OH)₂|Fe(OH)₃|Al(OH)₃|Ishqoriy metall gidroksidlari kuchli.
+k8|SO₃ suv bilan reaksiyaga kirishganda nima hosil bo'ladi?|H₂SO₄|H₂SO₃|H₂S|SO₂|SO₃ + H₂O → H₂SO₄.
+k8|Qaysi tuz suvda yaxshi eriydi?|NaNO₃|AgCl|BaSO₄|CaCO₃|Nitratlar deyarli hammasi eriydi.
+k8|Cu(OH)₂ qizdirilganda nima hosil bo'ladi?|CuO va H₂O|Cu va H₂|CuH₂|Cu₂O va O₂|Erimaydigan asoslar oksidga parchalanadi.
+k8|Qaysi tuz o'rta tuz?|K₂SO₄|KHSO₄|Cu(OH)Cl|KH₂PO₄|Almashinadigan H yoki OH qolmagan.
+k8|Al(OH)₃ qanday birikma?|Amfoter gidroksid|Kuchli asos|Kislota|Tuz|Al(OH)₃ ham kislota, ham asos bilan reaksiyaga kirishadi.
+b9|Ildizning so'rish vazifasini qaysi qismi bajaradi?|Ildiz tuklari|Ildiz qini|Ildiz cho'qqisi|O'sish zonasi|Ildiz tuklari suv va tuzlarni so'radi.
+b9|Gul qanday organ hisoblanadi?|Generativ (ko'payish) organ|Vegetativ organ|Tayanch organ|Ozuqa saqlovchi organ|Gul urug' va meva hosil qiladi.
+b9|Changlanish nima?|Changning changchidan urug'chi tumshuqchasiga o'tishi|Urug'ning unib chiqishi|Bargning to'kilishi|Ildizning o'sishi|Undan keyin urug'lanish sodir bo'ladi.
+b9|Bargdagi yashil pigment qaysi?|Xlorofill|Karotin|Antotsian|Melanin|Xlorofill yorug'lik energiyasini yutadi.
+b9|Poyaning yo'g'onlashishini qaysi to'qima ta'minlaydi?|Kambiy|Epidermis|Po'kak|Lub|Kambiy hujayralari bo'linadi.
+b9|Qulupnay qanday vegetativ ko'payadi?|Mo'ylovi orqali|Urug'i orqali|Sporasi orqali|Gul changi orqali|Yotiq poya tugunlarida ildiz otadi.
+b9|Fotosintez uchun CO₂ va suvdan tashqari nima zarur?|Yorug'lik|Azot|Ammiak|Tuproq|Yorug'lik energiyasi kimyoviy energiyaga aylanadi.
+k9|Quyidagilardan qaysi biri kimyoviy hodisa?|Temirning zanglashi|Muzning erishi|Suvning qaynashi|Shakarning erishi|Yangi modda (zang) hosil bo'ladi.
+k9|Qaysi biri sof modda?|Distillangan suv|Havo|Dengiz suvi|Qotishma|Sof modda bir xil tarkibga ega.
+k9|Kaliy elementining kimyoviy belgisi qaysi?|K|Ka|Kl|Ko|Kaliy – Kalium, belgisi K.
+k9|Tuz va suv aralashmasidan tuzni qanday ajratish mumkin?|Suvni bug'latib|Magnit yordamida|Dekantatsiya bilan|Filtrlab|Tuz erigan, filtrdan o'tib ketadi.
+k9|H₂O da kislorodning valentligi qancha?|II|I|III|IV|Bitta O ikkita H bilan bog'langan.
+k9|H₂O ning nisbiy molekulyar massasi qancha? (H=1, O=16)|18|16|17|20|2·1 + 16 = 18.
+k9|Massaning saqlanish qonuniga ko'ra reaksiyada nima o'zgarmaydi?|Umumiy massa|Moddalar turi|Molekulalar soni|Agregat holat|Reagentlar massasi mahsulotlar massasiga teng.
+k10|Avogadro soni qanchaga teng?|6,02·10²³|6,02·10²²|3,01·10²³|6,02·10²⁴|1 mol moddadagi zarrachalar soni.
+k10|Normal sharoitda 1 mol gazning hajmi qancha?|22,4 L|11,2 L|24 L|44,8 L|Bu molyar hajm.
+k10|CaCO₃ ning molyar massasi qancha?|100 g/mol|84 g/mol|56 g/mol|40 g/mol|40 + 12 + 48 = 100.
+k10|4 g H₂ yonganda (2H₂ + O₂ → 2H₂O) necha g suv hosil bo'ladi?|36 g|18 g|72 g|9 g|2 mol H₂ dan 2 mol H₂O = 36 g.
+k10|44 g CO₂ necha mol?|1 mol|2 mol|0,5 mol|4 mol|M(CO₂) = 44 g/mol.
+k10|0,5 mol gaz normal sharoitda qancha hajm egallaydi?|11,2 L|22,4 L|5,6 L|44,8 L|0,5 · 22,4 = 11,2 L.
+k10|Reaksiya tenglamasidagi koeffitsientlar nimani bildiradi?|Moddalarning mol nisbatini|Faqat massani|Valentlikni|Zaryadni|Koeffitsientlar mol nisbatini beradi.
+b11|Asab tizimining strukturaviy birligi nima?|Neyron|Nefron|Alveola|Sarkomer|Neyron impuls hosil qiladi va o'tkazadi.
+b11|Muvozanat va harakatlar muvofiqligini bosh miyaning qaysi qismi boshqaradi?|Miyacha|Uzunchoq miya|Katta yarimsharlar|Talamus|Miyacha koordinatsiya markazi.
+b11|Yorug'likda ko'z qorachig'ining torayishi qanday refleks?|Shartsiz|Shartli|Ixtiyoriy|Orttirilgan|Tug'ma reaksiya.
+b11|Nafas va yurak faoliyati markazlari qayerda?|Uzunchoq miyada|Miyachada|Katta yarimsharlarda|Orqa miyada|Uzunchoq miya hayotiy markazlarni saqlaydi.
+b11|Ko'zning yorug'likni sezuvchi retseptorlari qaysilar?|Tayoqcha va kolbachalar|Eshitish tukchalari|Ta'm kurtaklari|Mushak duklari|Ular to'r pardada joylashgan.
+b11|Eshitish retseptorlari qaysi qismda joylashgan?|Ichki quloqdagi chig'anoqda|O'rta quloqda|Tashqi quloqda|Evstaxiy nayida|Chig'anoqda Korti a'zosi bor.
+b11|Orqa miya qanday vazifalarni bajaradi?|Refleks va o'tkazuvchanlik|Faqat fikrlash|Nutq va xotira|Faqat ko'rish|Orqa miya refleks markazi va yo'l.
+k11|Elektrolizda katodda qanday jarayon kechadi?|Qaytarilish|Oksidlanish|Neytrallanish|Gidroliz|Katodga kationlar elektron oladi.
+k11|Elektrolizda anodda qanday jarayon kechadi?|Oksidlanish|Qaytarilish|Cho'kish|Sublimatsiya|Anionlar elektron beradi.
+k11|Galvanik element qanday energiyani elektr energiyasiga aylantiradi?|Kimyoviy|Issiqlik|Yorug'lik|Mexanik|Redoks reaksiyasidan tok olinadi.
+k11|NaCl ning suvli eritmasi elektroliz qilinganda katodda nima ajraladi?|H₂|Na|Cl₂|O₂|Na faol metall, suvdan vodorod ajraladi.
+k11|Standart vodorod elektrodining potensiali qancha deb qabul qilingan?|0 V|+1 V|−1 V|0,76 V|Sanoq boshi uchun 0 qabul qilingan.
+k11|Temirni korroziyadan himoya qilishning usuli qaysi?|Rux bilan qoplash|Namlikni oshirish|Kislotada saqlash|Tuz sepish|Rux temirdan faolroq, avval korroziyalanadi.
+k11|Faradey qonuniga ko'ra ajralgan modda massasi nimaga proporsional?|O'tgan zaryad miqdoriga|Zaryadning teskarisiga|Haroratga|Bosimga|m = k·Q.
+b12|Meyoz natijasida nechta qiz hujayra hosil bo'ladi?|4 ta gaploid|2 ta diploid|4 ta diploid|2 ta gaploid|Meyoz xromosomalar sonini ikki marta kamaytiradi.
+b12|Quyidagilardan qaysi biri jinssiz ko'payish?|Sporalar orqali|Urug'lanish|Gametalar qo'shilishi|Konyugatsiya|Jinssiz ko'payishda gameta ishtirok etmaydi.
+b12|Zigota nima?|Urug'langan tuxum hujayra|Spermatozoid|Tuxum yo'li|Embrion pardasi|Gametalar qo'shilishidan hosil bo'ladi.
+b12|Embrional rivojlanish ketma-ketligi qaysi?|Zigota → blastula → gastrula|Gastrula → zigota → blastula|Blastula → zigota → gastrula|Zigota → gastrula → blastula|Bo'linish, so'ng qavatlar hosil bo'lishi.
+b12|To'liq o'zgarish bilan rivojlanadigan hasharot qaysi?|Kapalak|Chigirtka|Tarakan|Suvarak|Tuxum, lichinka, g'umbak, voyaga yetgan davr.
+b12|Spermatozoidlar qayerda hosil bo'ladi?|Urug'donda|Tuxumdonda|Jigarda|Buyrakda|Spermatogenez urug'donda kechadi.
+b12|Ovogenez qayerda kechadi?|Tuxumdonda|Urug'donda|Me'da ostida|Buyrakda|Tuxum hujayralar tuxumdonda yetiladi.`.trim().split("\n").map(l=>{const p=l.split("|");return{t:p[0],q:p[1],o:p.slice(2,6),e:p[6]}});
+const CL=window.claude||{use:async()=>null};const a=document.getElementById("a");let st,tm;
+const sh=x=>x.map(v=>[Math.random(),v]).sort((p,q)=>p[0]-q[0]).map(v=>v[1]);
+const sv=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
+const ld=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))||d}catch(e){return d}};
+const bk='<button onclick="home()">Bosh sahifaga qaytish</button>';
+const mk=i=>{const q=B[i],o=sh(q.o.map((x,j)=>[x,j==0]));return{q:q.q,o:o.map(x=>x[0]),c:o.findIndex(x=>x[1]),e:q.e,t:q.t}};
+const HK=()=>Math.floor(Date.now()/54e5);let gl=0;
+function mergeHr(d){for(let i=B.length-1;i>=0;i--)if(B[i].h)B.splice(i,1);for(const k in T)if(T[k][2])delete T[k];
+(d.topics||[]).forEach((t,n)=>{const k=t.s+"_"+n;T[k]=[t.title,t.theory,1];t.qs.forEach(x=>B.push({t:k,q:x.q,o:[x.o[x.c]].concat(x.o.filter((_,j)=>j!=x.c)),e:x.e,h:1}))})}
+async function gen(){const c=ld("hr",null);if(c&&c.k==HK()){topics();return}
+const sm=await CL.use("sample");if(!sm){a.innerHTML="<div class='ex'>Bu funksiya hozir mavjud emas. Asosiy mavzular va testlar ishlayveradi.</div>"+bk;return}
+gl=1;a.innerHTML="<div class='ex'>Yangi mavzu va savollar tayyorlanmoqda… (10–60 soniya)</div>";
+const p='You write national certificate (Uzbekistan) exam prep content. Time: '+new Date().toISOString()+'. Existing topics: '+Object.values(T).map(t=>t[0]).join('; ')+'. Create 2 NEW topics different from them: one chemistry (s:"k"), one biology (s:"b"). For each: title, 2-sentence theory, and 20 new multiple-choice questions at national certificate level (easy, medium and hard mixed randomly). Write everything in Uzbek (Latin). Each question: 4 options, c = index 0-3 of the correct option (vary it), e = one-sentence explanation. Every fact must be scientifically correct. Return ONLY JSON: {"topics":[{"s":"k","title":"","theory":"","qs":[{"q":"","o":["","","",""],"c":0,"e":""}]}]}';
+try{const d=await sm.json(p,{cache:false});d.topics=d.topics.filter(t=>(t.s=="k"||t.s=="b")&&t.title&&Array.isArray(t.qs)).map(t=>({s:t.s,title:t.title,theory:t.theory||"",qs:t.qs.filter(x=>x.q&&x.e&&Array.isArray(x.o)&&x.o.length==4&&x.o.every(Boolean)&&x.c>=0&&x.c<4)}));d.k=HK();sv("hr",d);mergeHr(d);gl=0;topics()}catch(e){gl=0;a.innerHTML="<div class='ex'>Yangilash bajarilmadi. Keyinroq qayta urinib ko'ring.</div>"+bk}}
+const mb=z=>()=>{z|=0;z=z+1831565813|0;let t=Math.imul(z^z>>>15,1|z);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296};
+const sr=(x,r)=>x.map(v=>[r(),v]).sort((p,q)=>p[0]-q[0]).map(v=>v[1]),pc=(x,r)=>x[Math.floor(r()*x.length)],fm=x=>String(+x.toFixed(3)).replace(".",",");
+const NQ=(k,q,a,e,r,u,c)=>{u=u||"";const w=sr([...new Set((c||[a*2,a/2,a+10,a-10,a*10,a/10,a+1,a-1,a*1.5]).map(v=>+v.toFixed(3)).filter(v=>v>0&&v!=a))],r).slice(0,3);return{t:k,q:q,o:[fm(a)+u,...w.map(v=>fm(v)+u)],e:e,p:1}};
+const MM=[["H₂O",18],["CO₂",44],["NaCl",58.5],["CaCO₃",100],["H₂SO₄",98],["NaOH",40],["HCl",36.5],["NH₃",17],["CH₄",16],["O₂",32],["CaO",56],["Ca(OH)₂",74],["HNO₃",63],["MgO",40]],EL=[["Li",3,1],["Be",4,2],["B",5,3],["C",6,4],["N",7,5],["O",8,6],["F",9,7],["Na",11,1],["Mg",12,2],["Al",13,3],["Si",14,4],["P",15,5],["S",16,6],["Cl",17,7]],MP=[8,12,14,16,24,46,48],V8=[1,2,3,4,5,6,7,8];
+const GN={
+k10:(k,r,i)=>{const[f,M]=MM[i%14],n=pc([.5,1,2,3],r),t=i%3;return t==0?NQ(k,fm(n*M)+" g "+f+" necha mol?",n,"n = m/M = "+fm(n*M)+"/"+fm(M)+".",r," mol"):t==1?NQ(k,fm(n)+" mol "+f+" necha gramm?",n*M,"m = n·M = "+fm(n)+"·"+fm(M)+".",r," g"):NQ(k,fm(n)+" mol gaz normal sharoitda necha litr hajm egallaydi?",22.4*n,"V = n·22,4.",r," L")},
+k9:(k,r,i)=>{const[f,M]=MM[i%14];return NQ(k,f+" ning nisbiy molekulyar massasi qancha?",M,"Atom massalari yig'indisi = "+fm(M)+".",r)},
+k3:(k,r,i)=>{const t=i%4;if(t==0){const w=pc([80,90,100,150,200],r),z=pc([10,20,25,50],r);return NQ(k,w+" g suvda "+z+" g tuz eritilsa, eritma necha foizli?",z/(w+z)*100,"w = "+z+"/"+(w+z)+"·100.",r," %")}if(t==1){const v=pc([.5,1,2,4],r),n=pc([.5,1,2,3],r);return NQ(k,fm(v)+" L eritmada "+fm(n)+" mol modda bo'lsa, molyar konsentratsiya qancha?",n/v,"C = n/V = "+fm(n)+"/"+fm(v)+".",r," M")}const x=2+Math.floor(r()*11);return t==2?NQ(k,"[H⁺] = 10⁻"+x+" mol/L bo'lgan eritmaning pH qiymati?",x,"pH = −lg[H⁺] = "+x+".",r,"",[1,2,3,4,5,6,7,8,9,10,11,12,13].map(v=>v==x?0:v)):NQ(k,"pH = "+x+" bo'lsa, pOH qancha?",14-x,"pH + pOH = 14.",r,"",[1,2,3,4,5,6,7,8,9,10,11,12,13])},
+k1:(k,r,i)=>{const e=EL[i%14],t=i%3;if(t==0)return NQ(k,e[0]+" atomida nechta valent elektron bor?",e[2],"Tashqi qavatdagi elektronlar soni "+e[2]+".",r,"",V8);if(t==1)return NQ(k,"Z = "+e[1]+" bo'lgan element atomida nechta valent elektron bor?",e[2],"Element "+e[0]+", valent elektronlar "+e[2]+".",r,"",V8);const z=pc([6,8,11,13,17,20],r),a=2*z+pc([0,1,2,3],r);return NQ(k,"Proton soni "+z+", massa soni "+a+" bo'lgan atomda nechta neytron bor?",a-z,"N = A − Z = "+a+" − "+z+".",r)},
+k6:(k,r,i)=>{if(i%2==0){const g=pc([2,3],r),d=pc([10,20,30,40],r);return NQ(k,"Harorat "+d+"°C ga oshirilsa, reaksiya tezligi necha marta ortadi? (γ = "+g+")",g**(d/10),"v₂/v₁ = γ^(ΔT/10) = "+g+"^"+d/10+".",r," marta")}const c=pc([1,1.5,2],r),d=pc([.2,.4,.8],r),t=pc([10,20,40],r);return NQ(k,"Konsentratsiya "+fm(c)+" mol/L dan "+fm(c-d)+" mol/L gacha "+t+" s da kamaydi. O'rtacha tezlik (mol/L·s)?",d/t,"v = Δc/Δt = "+fm(d)+"/"+t+".",r)},
+b8:(k,r,i)=>{const t=i%3;if(t==0){const x=pc([15,18,20,22,25,28,30,32,35],r);return NQ(k,"DNKda adenin "+x+"% bo'lsa, guanin necha foiz?",50-x,"A = T, G = C; G = 50 − "+x+".",r," %")}if(t==1){const n=pc([50,80,100,120,150,200,250,300],r);return NQ(k,n+" ta aminokislotali oqsilni kodlovchi genda kamida nechta nukleotid bor (bir zanjirda)?",3*n,"1 aminokislota = 3 nukleotid.",r)}const x=pc([120,150,200,250,300,400,500],r);return NQ(k,"DNKda "+x+" ta sitozin bo'lsa, nechta guanin bor?",x,"Komplementarlik: G = C.",r)},
+b1:(k,r,i)=>{const m=MP[i%7],t=i%3;return t==0?NQ(k,"2n = "+m+" bo'lgan hujayra mitozdan keyin, qiz hujayrada nechta xromosoma bo'ladi?",m,"Mitozda xromosoma to'plami saqlanadi.",r):t==1?NQ(k,"2n = "+m+" bo'lgan organizmda meyozdan keyin gametada nechta xromosoma bor?",m/2,"Meyozda son ikki marta kamayadi.",r):NQ(k,"2n = "+m+" bo'lgan hujayrada mitoz anafazasida jami nechta xromosoma bo'ladi?",2*m,"Xromatidlar ajralib, soni ikki hissa ortadi.",r)},
+b12:(k,r,i)=>{const m=MP[i%7],t=i%3;return t==0?NQ(k,"2n = "+m+" bo'lgan turda gametada nechta xromosoma bor?",m/2,"Gameta gaploid: n = "+m/2+".",r):t==1?NQ(k,"2n = "+m+" bo'lgan turda zigotada nechta xromosoma bo'ladi?",m,"Ikki gameta qo'shilib diploid to'plam tiklanadi.",r):NQ(k,"2n = "+m+" bo'lgan hujayra meyozi natijasida nechta gaploid hujayra hosil bo'ladi va ularning xromosomasi qancha?",m/2,"4 ta hujayra, har birida n = "+m/2+" ta xromosoma.",r," ta xromosoma")},
+b2:(k,r,i)=>{const N=pc([400,800,1200,1600,2000,2400],r),t=i%3,f=[.75,.25,.5][t],n=["dominant fenotipli","resessiv (aa) genotipli","geterozigota (Aa)"][t];return NQ(k,"Aa × Aa chatishtirishdan olingan "+N+" ta avloddan taxminan nechtasi "+n+" bo'ladi?",N*f,"Nisbat 3:1 (fenotip), 1:2:1 (genotip).",r)}};
+const PT={
+k2:"NaCl da bog'lanish turi?=Ionli|Cl₂ da bog'lanish turi?=Kovalent qutbsiz|HCl da bog'lanish turi?=Kovalent qutbli|Na metalida bog'lanish turi?=Metall|CH₄ molekulasining shakli?=Tetraedr|CO₂ molekulasining shakli?=Chiziqli|H₂O molekulasining shakli?=Burchakli|BF₃ molekulasining shakli?=Tekis uchburchak|NH₃ molekulasining shakli?=Piramida|KCl da bog'lanish turi?=Ionli|O₂ da bog'lanish turi?=Kovalent qutbsiz",
+k4:"Amfoter metall?=Alyuminiy|Suyuq metall?=Simob|Kerosin ostida saqlanadigan faol metall?=Natriy|Cu va Sn qotishmasi?=Bronza|Cu va Zn qotishmasi?=Latun|Elektr o'tkazuvchanligi eng yuqori metall?=Kumush|Zanglaydigan asosiy metall?=Temir|Fe va C qotishmasi (C < 2%)?=Po'lat|Suv bilan reaksiyaga kirishuvchi ishqoriy-yer metall?=Kalsiy|Eng yengil ishqoriy metall?=Litiy",
+k5:"Alkanlarning umumiy formulasi?=CₙH₂ₙ₊₂|Alkenlarning umumiy formulasi?=CₙH₂ₙ|Alkinlarning umumiy formulasi?=CₙH₂ₙ₋₂|Metanning formulasi?=CH₄|Etanolning formulasi?=C₂H₅OH|Sirka kislotaning formulasi?=CH₃COOH|Etilenning formulasi?=C₂H₄|Asetilenning formulasi?=C₂H₂|Benzolning formulasi?=C₆H₆|Propanning formulasi?=C₃H₈",
+k7:"Ammiakning formulasi?=NH₃|Ozonning formulasi?=O₃|Nitrat kislotaning formulasi?=HNO₃|Sulfat kislotaning formulasi?=H₂SO₄|Xlorid kislotaning formulasi?=HCl|Sulfit angidridning formulasi?=SO₂|Karbonat angidridning formulasi?=CO₂|Suyuq galogen?=Br₂|Eng kuchli oksidlovchi galogen?=F₂|Uglerodning allotropik shakli?=Olmos",
+k8:"CaO qaysi sinfga kiradi?=Asosli oksid|CO₂ qaysi sinfga kiradi?=Kislotali oksid|ZnO qaysi sinfga kiradi?=Amfoter oksid|NaOH qaysi sinfga kiradi?=Asos|HCl qaysi sinfga kiradi?=Kislota|NaCl qaysi sinfga kiradi?=O'rta tuz|Al(OH)₃ qaysi sinfga kiradi?=Amfoter gidroksid|KHSO₄ qaysi sinfga kiradi?=Nordon tuz|Cu(OH)Cl qaysi sinfga kiradi?=Asosli tuz|K₂SO₄ qaysi sinfga kiradi?=O'rta tuz|SO₃ qaysi sinfga kiradi?=Kislotali oksid",
+k11:"Elektrolizda katodda kechadigan jarayon?=Qaytarilish|Elektrolizda anodda kechadigan jarayon?=Oksidlanish|Galvanik elementda energiya o'zgarishi?=Kimyoviy → elektr|Elektrolizda energiya o'zgarishi?=Elektr → kimyoviy|Standart vodorod elektrod potensiali?=0 V|NaCl eritmasi elektrolizida katodda?=H₂|NaCl eritmasi elektrolizida anodda?=Cl₂|Suv elektrolizida anodda?=O₂|Faradey qonunida massa nimaga proporsional?=Zaryad miqdoriga|Korroziya nima?=Metallning yemirilishi|Galvanik elementda anod qutbi?=Manfiy|Galvanik elementda katod qutbi?=Musbat|Elektrolit nima?=Eritmasi yoki suyuqlanmasi tok o'tkazadi",
+b3:"Qonda O₂ tashuvchi hujayra?=Eritrotsit|Himoya vazifali qon hujayrasi?=Leykotsit|Qon ivishini ta'minlaydi?=Trombotsit|Yurak kameralari soni?=4 ta|Insulin ishlab chiqaradigan bez?=Me'da osti bezi|Gazlar almashinuvi joyi?=Alveola|Oqsil hazmi boshlanadigan organ?=Oshqozon|Safro ishlab chiqaradigan organ?=Jigar|Siydik hosil qiluvchi organ?=Buyrak|Tiroksin ishlab chiqaradigan bez?=Qalqonsimon bez|Yurakdan qon olib chiqadigan tomir?=Arteriya|Yurakka qon olib keladigan tomir?=Vena|Nefron qaysi organda joylashgan?=Buyrak|Oshqozon shirasidagi ferment?=Pepsin|Kalsiy to'planadigan to'qima?=Suyak",
+b4:"Suv tashuvchi to'qima?=Ksilema|Organik modda tashuvchi to'qima?=Floema|Gaz almashinuvi tuzilmasi?=Og'izcha|Fotosintez organoidi?=Xloroplast|Fotosintezda ajraladigan gaz?=Kislorod|Poyani yo'g'onlashtiradigan to'qima?=Kambiy|Bir pallali o'simlik?=Makkajo'xori|Ikki pallali o'simlik?=Loviya|Qo'sh urug'lanish xos guruh?=Yopiq urug'lilar|Ildizning so'rish qismi?=Ildiz tuklari|Bargning yashil pigmenti?=Xlorofill|Urug' hosil qiluvchi gul qismi?=Urug'chi|Gul changi hosil bo'ladigan qism?=Changchi|Qulupnay ko'payish organi?=Mo'ylov|Kartoshka tuguni?=O'zgargan poya",
+b5:"Produtsent kim?=Yashil o'simlik|Konsument kim?=Hayvon|Redutsent kim?=Bakteriya va zamburug'|Tabiiy tanlanish nazariyasi muallifi?=Darvin|Zanjirda keyingi bo'g'inga o'tadigan energiya?=10%|Issiqxona effektini kuchaytiruvchi gaz?=CO₂|Bir turning hududdagi guruhi?=Populyatsiya|Yerning tirik qobig'i?=Biosfera|Turlar jamoasi nima deyiladi?=Biotsenoz|Ozon qatlami nimadan himoya qiladi?=Ultrabinafsha nurlardan|Tirik omillar nima deyiladi?=Biotik|Tirik bo'lmagan omillar?=Abiotik|Evolyutsiya uchun xom ashyo?=Mutatsiya|Orttirilgan belgilar irsiylanadi degan olim?=Lamark|Ekotizimdagi organik moddalar manbai?=Fotosintez",
+b6:"Issiqqonli sinf?=Qushlar|Hasharotning oyoqlari soni?=6 ta|O'rgimchaksimonning oyoqlari soni?=8 ta|Xordalilar belgisi?=Xorda|Yumaloq chuvalchang?=Askarida|Halqali chuvalchang?=Yomg'ir chuvalchangi|Yassi chuvalchang?=Jigar qurti|Baliqlar nafas oladi?=Jabra bilan|Amfibiya?=Baqa|Sudralib yuruvchi?=Kaltakesak|Mollyuskalar tanasini qoplaydi?=Mantiya|Bir hujayrali hayvon?=Amyoba|Kovakichli hayvon?=Gidra|Kapalak rivojlanishi?=To'liq o'zgarish|Chigirtka rivojlanishi?=Chala o'zgarish|Sut bilan boqadigan sinf?=Sut emizuvchilar",
+b7:"Rahitga qarshi vitamin?=D|Singa (skorbut) vitamini?=C|Tungi ko'rlik vitamini?=A|Qon ivishi vitamini?=K|Beriberi vitamini?=B₁|Energiyaning universal tashuvchisi?=ATF|Fermentlar asosan?=Oqsil|Asosiy energiya manbai?=Uglevod|Eng ko'p energiya beruvchi modda?=Yog'|Gemoglobin tarkibidagi mineral?=Temir|Suyak va tish mineral?=Kalsiy|Qalqonsimon bez uchun kerak element?=Yod|Energiya stansiyasi organoid?=Mitoxondriya|Glikoliz kechadigan joy?=Sitoplazma|Oqsil monomeri?=Aminokislota|Nafasda ajraladigan gaz?=CO₂",
+b9:"Gul qanday organ?=Generativ|Ildiz, poya, barg qanday organlar?=Vegetativ|Changlanish nima?=Changning urug'chiga tushishi|Poyaning vazifasi?=Tayanch va tashish|Bargning asosiy vazifasi?=Fotosintez|Meva nimadan hosil bo'ladi?=Tugunchadan|Urug' nimadan hosil bo'ladi?=Urug'kurtakdan|Ildiz turlaridan biri?=O'q ildiz|Barg tomirlanish turi?=Parallel|Sporalar bilan ko'payuvchi o'simlik?=Paporotnik|Ochiq urug'li o'simlik?=Qarag'ay|Urug' murtagining qismi?=Ildizcha|Barg to'kilishi qaysi fasl?=Kuz",
+b11:"Asab tizimining birligi?=Neyron|Muvozanat markazi?=Miyacha|Nafas markazi joylashgan qism?=Uzunchoq miya|Ko'rish retseptorlari?=Tayoqcha va kolbacha|Eshitish retseptorlari joyi?=Chig'anoq|Tug'ma refleks?=Shartsiz|Orttirilgan refleks?=Shartli|Orqa miya vazifasi?=Refleks va o'tkazuvchanlik|Hid sezuvchi joy?=Burun bo'shlig'i|Ko'z gavhari vazifasi?=Nurni sindirish|Rangni ajratuvchi retseptor?=Kolbacha|Qorong'ida ko'rishni ta'minlovchi?=Tayoqcha|Fikrlash markazi?=Katta yarimsharlar"};
+function pfill(k){for(let i=B.length-1;i>=0;i--)if(B[i].t==k&&B[i].p)B.splice(i,1);
+const need=20-B.filter(q=>q.t==k).length;if(need<=0)return;const r=mb(HK()*97+[...k].reduce((h,c)=>h*31+c.charCodeAt(0),7));let L=[];
+if(GN[k]){const u=new Set;for(let i=0;i<need*4&&L.length<need;i++){const x=GN[k](k,r,i);if(!u.has(x.q)&&x.o.length==4){u.add(x.q);L.push(x)}}}
+else if(PT[k]){const P=PT[k].split("|").map(x=>x.split("="));L=sr(P,r).map(([q,a])=>({t:k,q:q,o:[a,...sr([...new Set(P.map(x=>x[1]).filter(x=>x!=a))],r).slice(0,3)],e:q.replace("?","")+": "+a+".",p:1}))}
+L.slice(0,need).forEach(x=>B.push(x))}
+const pall=()=>Object.keys(T).forEach(k=>{if(!T[k][2])pfill(k)});
+let lw=HK(),ct=null;
+const okq=x=>x&&x.q&&x.e&&Array.isArray(x.o)&&x.o.length==4&&x.o.every(Boolean)&&x.c>=0&&x.c<4;
+const toB=(x,t,f)=>{const o={t:t,q:x.q,o:[x.o[x.c]].concat(x.o.filter((_,j)=>j!=x.c)),e:x.e};o[f]=1;return o};
+const purge=()=>{for(let i=B.length-1;i>=0;i--)if(B[i].g||B[i].h||B[i].m||B[i].p)B.splice(i,1);for(const k in T)if(T[k][2])delete T[k]};
+const mergeQ=(k,qs)=>{for(let i=B.length-1;i>=0;i--)if(B[i].t==k&&B[i].g)B.splice(i,1);qs.forEach(x=>B.push(toB(x,k,"g")))};
+async function fill(k){const c=ld("fq",{});if(c.w==HK()&&c[k]){mergeQ(k,c[k]);return 1}
+const sm=await CL.use("sample");if(!sm)return 0;
+const n=Math.max(8,20-B.filter(q=>q.t==k&&!q.g).length);
+const p='Write '+n+' NEW multiple-choice questions in Uzbek (Latin) at national certificate level, easy, medium and hard mixed randomly, for the school topic "'+T[k][0]+'" ('+(G[k]?G[k]+'-grade, ':'')+(k[0]=="k"?"chemistry":"biology")+'). Do not repeat these: '+B.filter(q=>q.t==k).slice(0,8).map(q=>q.q).join(" | ")+'. Each: q, o (4 options), c (index 0-3 of the correct option, vary it), e (one-sentence explanation). Facts must be correct. Return ONLY JSON: {"qs":[{"q":"","o":["","","",""],"c":0,"e":""}]}';
+try{const d=await sm.json(p,{cache:false}),qs=(d.qs||[]).filter(okq);if(!qs.length)return 0;if(c.w!=HK()){for(const x in c)delete c[x];c.w=HK()}c[k]=qs;sv("fq",c);mergeQ(k,qs);return 1}catch(e){return 0}}
+async function mock(){const c=ld("mx",{});
+if(c.w==HK()&&c.qs){}else{const sm=await CL.use("sample");if(sm){gl=1;a.innerHTML="<div class='ex'>Sinov testi uchun yangi savollar tayyorlanmoqda… (30–90 soniya)</div>";const ks=Object.keys(T).filter(k=>!T[k][2]);
+const p='Topics: '+ks.map((k,i)=>i+"="+T[k][0]).join("; ")+'. Write 30 NEW multiple-choice questions in Uzbek (Latin) at national certificate level, chemistry and biology mixed, spread over all topics, easy, medium and hard mixed in random order. Each: t (topic index), q, o (4 options), c (index 0-3 of correct option, vary it), e (one-sentence explanation). Facts must be correct. Return ONLY JSON: {"qs":[{"t":0,"q":"","o":["","","",""],"c":0,"e":""}]}';
+try{const d=await sm.json(p,{cache:false});c.qs=(d.qs||[]).filter(x=>okq(x)&&ks[x.t]).map(x=>({...x,k:ks[x.t]}));c.w=HK();sv("mx",c)}catch(e){}gl=0}}
+if(c.w==HK()&&c.qs&&!B.some(q=>q.m))c.qs.forEach(x=>B.push(toB(x,x.k,"m")));pall();start(0)}
+setInterval(()=>{if(gl)return;const w=HK();if(w!=lw){lw=w;purge();pall();if(a.querySelector(".hero"))home();else if(ct&&a.querySelector("[data-t]"))topic(ct)}else if(a.querySelector(".hero"))home()},6e4);
+{const c=ld("fq",{});if(c.w==HK())for(const k in c)if(k!="w"&&T[k])mergeQ(k,c[k]);const m=ld("mx",{});if(m.w==HK()&&m.qs)m.qs.forEach(x=>{if(T[x.k])B.push(toB(x,x.k,"m"))});pall()}
+{const c=ld("hr",null);if(c&&c.k==HK())mergeHr(c)}
+function home(){clearInterval(tm);const r=ld("ms",null),hc=ld("hr",null),ok=hc&&hc.k==HK();if(hc&&!ok)mergeHr({topics:[]});const hs=ok?"Joriy 90 daqiqa uchun yangilangan · keyingisi "+(90-Math.floor(Date.now()/6e4%90))+" daqiqadan so'ng":"Yangi mavzu va savollarni olish";a.innerHTML=`<section class="hero"><div class="atom"><i></i><i></i><i></i><b></b></div><h1>Milliy sertifikatga tayyorgarlik</h1><p>Kimyo va Biologiya: mavzular, mavzu testlari va real sinov imtihoni</p><div class="st"><div><b>${Object.keys(T).length}</b>mavzu</div><div><b>${B.length}</b>savol</div><div><b>45</b>ta sinov savoli</div></div></section><div class="cards"><button class="card" onclick="topics()"><span>📚</span><b>Mavzular</b><small>Nazariya va mavzu testlari</small></button><button class="card" onclick="mock()"><span>⏱️</span><b>Sertifikat testi</b><small>45 savol · 60 daqiqa</small></button>${r&&!r.done?'<button class="card" onclick="start(1)"><span>▶️</span><b>Testni davom ettirish</b><small>Qoldirgan joyingizdan</small></button>':''}<button class="card" onclick="gen()"><span>🔄</span><b>90 daqiqalik yangi mavzular</b><small>${hs}</small></button></div>${info()}`}
+function topics(){const ks=Object.keys(T);a.innerHTML="<h2>Mavzular (6–11-sinf)</h2><p><small>Sinflar taxminiy, maktab darsligingiz bo'yicha tekshiring.</small></p>"+[6,7,8,9,10,11,0].map(g=>{const l=ks.filter(k=>(G[k]||0)==g);return l.length?`<h3 class="sub">${g?g+"-sinf":"🔄 90 daqiqalik yangi mavzular"}</h3><div class="cards">`+l.map(k=>`<button class="card ${k[0]}" onclick="topic('${k}')"><span>${k[0]=="k"?"🧪":"🧬"}</span><b>${T[k][0]}</b><small>${B.filter(q=>q.t==k).length} ta savol${ld("best",{})[k]!=null?" · eng yaxshi "+ld("best",{})[k]+"%":""}</small></button>`).join("")+"</div>":""}).join("")+bk}
+const dl=(m,d)=>Math.ceil((new Date(2026,m-1,d)-Date.now())/864e5),ft=n=>n>0?n+" kun qoldi":n==0?"bugun":"o'tib ketdi";
+function info(){const r=dl(10,16);return `<section class="info"><h3>📅 Milliy sertifikat: qachon va qanday topshiriladi?</h3><div class="dt"><div><b>${r>0?r+" kun":"Ochiq"}</b><small>${r>0?"16-oktabrda ro'yxatdan o'tish (baza) ochiladi":"Ro'yxatdan o'tish 16–30-oktabr"}</small></div><div><b>21-noyabr</b><small>Biologiya · ${ft(dl(11,21))}</small></div><div><b>22-noyabr</b><small>Kimyo · ${ft(dl(11,22))}</small></div></div><ul><li><b>Ro'yxatdan o'tish:</b> 16–30-oktabr, my.gov.uz portali (OneID) orqali. Fan, hudud va ta'lim tilini tanlaysiz.</li><li><b>To'lov:</b> 31-oktabrgacha (PayMe, Click yoki bank). Miqdori manbalarda 556 200 dan 594 000 so'mgacha ko'rsatilgan, aniq summani portalda tekshiring.</li><li><b>Ruxsatnoma:</b> imtihondan oldin shaxsiy kabinetga tushadi (joy va vaqt ko'rsatiladi).</li><li><b>Diqqat:</b> hududlar uchun o'rinlar cheklangan. Joylar to'lsa, ro'yxat muddatdan oldin yopilishi mumkin (Vazirlar Mahkamasining 2026-yil 29-iyuldagi 411-son qarori). Oxirgi kunga qoldirmang.</li><li><b>Natija:</b> imtihondan keyin 21 ish kuni ichida e'lon qilinadi. Sertifikat 3 yil amal qiladi, 75 va undan yuqori ball OTMga kirishda shu fandan maksimal ball beradi (manbalarga ko'ra).</li></ul><a class="lnk pri" href="https://my.gov.uz/uz/service/891" target="_blank" rel="noopener">Ro'yxatdan o'tish (my.gov.uz)</a><a class="lnk" href="https://uzbmb.uz" target="_blank" rel="noopener">Rasmiy sayt: uzbmb.uz</a><p><small>Ma'lumot 2026-yil 30-sentabr holatiga. Sanalar o'zgarishi mumkin, har doim rasmiy saytda tekshiring.</small></p></section>`}
+document.addEventListener("pointermove",e=>{const c=e.target.closest&&e.target.closest(".card");if(!c)return;const r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform=`perspective(700px) rotateY(${x*16}deg) rotateX(${-y*16}deg) translateZ(10px)`});
+document.addEventListener("pointerout",e=>{const c=e.target.closest&&e.target.closest(".card");if(c)c.style.transform=""});
+function topic(k){ct=k;if(!T[k][2])pfill(k);const draw=msg=>{a.innerHTML=`<h2 data-t>${T[k][0]}</h2><div class="ex">${T[k][1]}</div><p><small>${msg}</small></p><button class="pri" onclick="tq('${k}')">Mavzu testini boshlash (${B.filter(q=>q.t==k).length} savol)</button><button onclick="topics()">Mavzular</button>`+bk};
+if(T[k][2]){draw("Bu mavzu joriy 90 daqiqalik to'plamga tegishli.");return}
+draw("Yangi savollar tayyorlanmoqda…");fill(k).then(r=>{if(ct==k&&a.querySelector("[data-t]"))draw(r?"Savollar har 90 daqiqada yangilanadi.":"Yangi savollar hozir mavjud emas, asosiy bazadan foydalaniladi.")})}
+function tq(k){st={qs:sh(B.map((q,i)=>i).filter(i=>B[i].t==k)).map(mk),n:0,a:[],mock:0,k:k};show()}
+function start(c){if(c){st=ld("ms",null)}else{const seen=ld("seen",[]),all=B.map((q,i)=>i),un=sh(all.filter(i=>!seen.includes(B[i].q))),rs=sh(all.filter(i=>seen.includes(B[i].q))),pk=un.concat(rs).slice(0,45);sv("seen",(un.length>=45?seen:[]).concat(pk.map(i=>B[i].q)));st={qs:pk.map(mk),n:0,a:[],mock:1,end:Date.now()+36e5};sv("ms",st)}show()}
+function tick(){const r=Math.max(0,st.end-Date.now()),e=document.getElementById("tm");if(e)e.textContent=String(Math.floor(r/6e4)).padStart(2,"0")+":"+String(Math.floor(r/1e3)%60).padStart(2,"0");if(!r)fin()}
+function show(){clearInterval(tm);const q=st.qs[st.n],d=st.a[st.n],ans=d!=null;
+a.innerHTML=`<div class="prog"><i style="width:${(st.n+1)/st.qs.length*100}%"></i></div><div class="bar"><span>Savol ${st.n+1}/${st.qs.length}</span>${st.mock?'<b id="tm"></b>':''}</div><h3>${q.q}</h3>`+q.o.map((x,j)=>`<button class="o ${ans?(j==q.c?"ok":j==d?"no":""):""}" ${ans?"disabled":""} onclick="pick(${j})"><em>${"ABCD"[j]}</em>${x}</button>`).join("")+(ans?`<div class="ex"><b>${d==q.c?"To'g'ri!":"Noto'g'ri."}</b> To'g'ri javob: ${"ABCD"[q.c]}. ${q.e}</div>`:"")+`<div>${bk}<button onclick="fin()">Yakunlash</button>${ans&&st.n<st.qs.length-1?'<button onclick="nx()">Keyingisi</button>':''}</div>`;
+if(st.mock){tick();tm=setInterval(tick,1e3)}}
+function pick(j){st.a[st.n]=j;if(st.mock)sv("ms",st);show()}
+function nx(){st.n++;if(st.mock)sv("ms",st);show()}
+function fin(){clearInterval(tm);let c=0,s={};st.qs.forEach((q,i)=>{const ok=st.a[i]==q.c;c+=ok;const x=s[q.t]=s[q.t]||[0,0];x[0]+=ok;x[1]++});
+const p=Math.round(c/st.qs.length*100),L=[[86,"A+"],[76,"A"],[66,"B+"],[56,"B"],[46,"C+"],[36,"C"]].find(x=>p>=x[0]),
+f=g=>Object.keys(s).filter(k=>g(s[k][0]/s[k][1])).map(k=>`${T[k][0]} (${s[k][0]}/${s[k][1]})`).join(", ")||"–";
+st.done=1;if(!st.mock&&st.k){const bb=ld("best",{});bb[st.k]=Math.max(bb[st.k]||0,p);sv("best",bb)}if(st.mock)sv("ms",st);
+a.innerHTML=`<div class="res"><div class="ring" style="--p:${p}"><span>${p}%</span></div><h2>Natija: ${c}/${st.qs.length}</h2></div>${st.mock?`<p class="lv">Ehtimoliy sertifikat darajasi: <b>${L?L[1]:"sertifikat darajasiga yetmadi"}</b></p><p><small>Bu taxminiy baho: rasmiy ball hisoblashidan farq qilishi mumkin.</small></p>`:""}<p><b>Afzalliklaringiz:</b> ${f(r=>r>=.7)}</p><p><b>Kamchiliklaringiz:</b> ${f(r=>r<.5)}</p>`+bk}
+home();
+</script></body></html>
